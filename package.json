@@ -1,0 +1,15 @@
+{
+  "name": "deployflow",
+  "version": "2.0.0",
+  "description": "DeployFlow - Website deployment platform",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for API routes + static'"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.12.0"
+  }
+}
